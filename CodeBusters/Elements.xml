@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="RootModule">
+    <File Path="fonts\weathericons-regular-webfont.woff2" Url="fonts/weathericons-regular-webfont.woff2" ReplaceContent="TRUE" />
+    <File Path="fonts\weathericons-regular-webfont.woff" Url="fonts/weathericons-regular-webfont.woff" ReplaceContent="TRUE" />
+    <File Path="fonts\weathericons-regular-webfont.ttf" Url="fonts/weathericons-regular-webfont.ttf" ReplaceContent="TRUE" />
+    <File Path="fonts\weathericons-regular-webfont.svg" Url="fonts/weathericons-regular-webfont.svg" ReplaceContent="TRUE" />
+    <File Path="fonts\weathericons-regular-webfont.eot" Url="fonts/weathericons-regular-webfont.eot" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

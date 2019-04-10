@@ -14,6 +14,15 @@
 
     // Call geolocation for auto location.
 
+    navigator.geolocation.getCurrentPosition(success => {
+        console.log('Works..');
+    }, failure => {
+        if (failure.message.startsWith("Only secure origins are allowed")) {
+            console.log('Secure Origin issue...');
+        }
+        });
+
+
     if (navigator.geolocation) {
 
         navigator.geolocation.getCurrentPosition(function (location) {

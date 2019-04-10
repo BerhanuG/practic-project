@@ -3,10 +3,10 @@
   <Files>
     <ProjectItemFile Source="Elements.xml" Target="Content\" Type="ElementManifest" />
     <ProjectItemFile Source="App.css" Target="Content\" Type="ElementFile" />
-    <ProjectItemFile Source="CodeBustersAppPart.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="bootstrap.min.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="font-awesome.min.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="jqueryUI.css" Target="Content\" Type="ElementFile" />
     <ProjectItemFile Source="weather-icons.min.css" Target="Content\" Type="ElementFile" />
-    <ProjectItemFile Source="weather-icons.css" Target="Content\" Type="ElementFile" />
     <ProjectItemFile Source="weather-icons-wind.min.css" Target="Content\" Type="ElementFile" />
-    <ProjectItemFile Source="weather-icons-wind.css" Target="Content\" Type="ElementFile" />
   </Files>
 </ProjectItem>

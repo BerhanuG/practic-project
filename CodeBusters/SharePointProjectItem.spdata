@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Type="ElementManifest" />
+    <ProjectItemFile Source="fonts\weathericons-regular-webfont.woff2" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\weathericons-regular-webfont.woff" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\weathericons-regular-webfont.ttf" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\weathericons-regular-webfont.svg" Target="fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="fonts\weathericons-regular-webfont.eot" Target="fonts\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

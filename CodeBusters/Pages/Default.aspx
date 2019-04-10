@@ -8,30 +8,83 @@
 
 <%-- The markup and script in the following Content element will be placed in the <head> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead" runat="server">
-    <script type="text/javascript" src="../Scripts/jquery-1.9.1.min.js"></script>
     <SharePoint:ScriptLink name="sp.js" runat="server" OnDemand="true" LoadAfterUI="true" Localizable="false" />
     <meta name="WebPartPageExpansion" content="full" />
 
     <!-- Add your CSS styles to the following file -->
-    <link rel="Stylesheet" type="text/css" href="../Content/App.css" />
+     <link href="../Content/weather-icons-wind.min.css" rel="stylesheet" />
+    <link href="../Content/weather-icons.min.css" rel="stylesheet" />
+    <link rel="Stylesheet" type="text/css" href="../Content/CodeBustersAppPart.css" />
 
     <!-- Add your JavaScript to the following file -->
-    <script type="text/javascript" src="../Scripts/App.js"></script>
+        <script type="text/javascript" src="../Scripts/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="../Scripts/CodeBustersAppPart.js"></script>
 </asp:Content>
 
-<%-- The markup in the following Content element will be placed in the TitleArea of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderPageTitleInTitleArea" runat="server">
-    Page Title
+    The Code Busters Weather App
 </asp:Content>
 
-<%-- The markup and script in the following Content element will be placed in the <body> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
 
-    <div>
-        <p id="message">
-            <!-- The following content will be replaced with the user name when you run the app - see App.js -->
-            initializing...
-        </p>
+<div class="city ">
+    
+  <div class="container">
+      <div><span class="date"> </span> <a href="#" id="copyright">The Code Busters</a></div>
+
+    <div class="city-title ">
+      <span id="location"> </span>
     </div>
+    <hr />
+    <div class="city-weather-temperature loader">
+      <span class="celsius fahrenheit-btn "></span>
+      <span class="fahrenheit celsius-btn"></span>
+    </div>
+
+    <div class="city-weather-description">
+      <span id="icon"></span><br />
+      <span id="description"></span>
+    </div>
+      <div id="status">
+          <span id="humidity"></span>
+        <span id="wind"></span>
+      </div>
+
+
+    <div class="bottom">
+      <div class="nav-info clearfix">
+        <div class="add-info">
+          <ul id="details">
+            <li>
+             <span id="day1C"> </span>
+              <span id="day1F"> </span>
+            </li>
+            <li>
+              <span id="day2C"> </span>
+              <span id="day2F"> </span>
+            </li>
+            <li>
+              <span id="day3C"> </span>
+              <span id="day3F"> </span>
+            </li>
+            <li>
+              <span id="day4C"> </span>
+              <span id="day4F"> </span>
+            </li>
+              <li>
+              <span id="day5C"> </span>
+              <span id="day5F"> </span>
+            </li>
+            
+          </ul>
+            
+        </div>
+        
+      </div>
+
+    </div>
+
+  </div>
+</div>
 
 </asp:Content>

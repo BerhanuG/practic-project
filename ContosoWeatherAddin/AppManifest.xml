@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
 <App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
-     Name="CodeBusters"
-     ProductID="{86766e26-1dfb-47e4-90cb-874342683906}"
-     Version="1.0.0.0"
+     Name="ContosoWeatherAddin"
+     ProductID="{e0ca4bac-1c09-4675-bba6-0e0af67b4c92}"
+     Version="1.0.0.3"
      SharePointMinVersion="16.0.0.0"
 >
   <Properties>
-    <Title>CodeBusters</Title>
+    <Title>ContosoWeatherAddin</Title>
     <StartPage>~appWebUrl/Pages/Default.aspx?{StandardTokens}</StartPage>
   </Properties>
 
   <AppPrincipal>
     <Internal />
   </AppPrincipal>
-  <AppPermissionRequests AllowAppOnlyPolicy="false">
-    <AppPermissionRequest Scope="http://sharepoint/content/sitecollection" Right="FullControl" />
+  <AppPermissionRequests>
+    <AppPermissionRequest Scope="http://sharepoint/content/sitecollection" Right="Read" />
   </AppPermissionRequests>
 </App>
