@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="9765c381-8e39-43e6-9f6a-e11eb440690a" 
+        solutionId="9765c381-8e39-43e6-9f6a-e11eb440690a" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="CodeBusters"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="9990cb7d-2129-42a5-ac3f-f87d751c8bcc" />
+  </features>
+</package>
